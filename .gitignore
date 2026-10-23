@@ -1,0 +1,27 @@
+# Dépendances
+node_modules/
+
+# Fichiers compilés
+dist/
+
+# Variables d'environnement (mots de passe…) : on ne publie que .env.example
+.env
+
+# Fichiers envoyés par l'utilisateur (le "disque du NAS")
+stockage/*
+!stockage/.gitkeep
+
+# Tutoriel personnel (non publié)
+tutoriel.md
+
+# Éditeurs
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Journaux
+*.log
+npm-debug.log*

@@ -1,0 +1,31 @@
+{
+  "name": "media-cloud-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "db:init": "tsx src/db/init-cli.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.3.0",
+    "helmet": "^8.3.0",
+    "multer": "^2.5.0",
+    "music-metadata": "^12.2.3",
+    "mysql2": "^3.24.6",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.3.0",
+    "@types/node": "^20.19.43",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
